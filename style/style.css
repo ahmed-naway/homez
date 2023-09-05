@@ -273,14 +273,58 @@ select{
     color: #ffffff;
 }
 
+.listing .cards{
+    padding-top: 40px;
+}
 
+.listing .cards .pic{
+    width: 320px;
+    height: 320px;
+    border: 8px var(--background-color) solid;
+    border-radius:18px ;
+    position: relative;
+}
 
+.listing .cards .pic img{
+    width: 320px;
+    border-radius:18px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
 
+.listing .cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.listing .cards .dream{
+    width: 320px;
+    word-wrap: wrap;
+}
 
+.listing .cards .dream a{
+    background-color: #000000;
+    color: white;
+    padding: auto 40px;
+    margin-top: 40px;
+}
+
+.listing .cards .dream .book-vist{
+    margin-top: 40px;
+}
+
+.listing .cards .dream .span{
+    font-weight: bolder;
+}
 
 .join{
     background-color: var(--primary-color);
+}
+
+.join p, .join h2{
+    color: #ffffff;
 }
 
 .join .get-started{
@@ -310,10 +354,6 @@ select{
     padding-left: 30px;
 }
 
-
-
-
-
 .footer{
     text-align: center;
     height: 120px;
@@ -323,8 +363,6 @@ select{
     line-height: 120px;
     font-size: 18px;
 }
-
-
 
 
 @media (max-width:767px){
